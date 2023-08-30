@@ -192,20 +192,23 @@ margin-left: 10px;
     }
 }
 @media (max-width:425px) {
+     .scroll-line{
+        width: 100%;
+    }
     .picture1{
         margin: auto;
         position: relative !important ;
-        right: 170px;
+        right: 15px;
     }
      .picture2{
         margin: auto;
         position: relative !important ;
-        right: 180px;
+        right: 20px;
     }
      .picture3{
         margin: auto;
         position: relative !important ;
-        right: 180px;
+        right: 20px;
     }
 }
 /*  */
