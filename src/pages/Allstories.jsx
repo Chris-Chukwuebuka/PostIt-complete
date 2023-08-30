@@ -32,7 +32,7 @@ const Allstories = () => {
   }, []);
   return (
     <div className="container">
-      <Header />
+      <Header t3 />
       <div className="d-md-flex py-2 mx-2 wel bg-body-tertiary">
         <div className="mt-3 user">
           <h1>

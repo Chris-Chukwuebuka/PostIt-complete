@@ -59,6 +59,7 @@ const Register = () => {
                 type="text"
                 id="username"
                 value={username}
+                required
                 onChange={(e) => setUserName(e.target.value)}
                 placeholder=" Username "
                 className="mt-3"
@@ -68,6 +69,7 @@ const Register = () => {
                 type="email"
                 id="email"
                 value={email}
+                required
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
@@ -79,6 +81,7 @@ const Register = () => {
                 type="text"
                 id="password"
                 value={password}
+                required
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Password"
                 className="mt-3"

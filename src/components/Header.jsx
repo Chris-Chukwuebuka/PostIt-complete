@@ -51,10 +51,14 @@ const Header = ({ t1, t2, t3 }) => {
                     </Link>
                   )}
                   <Link
-                    to="/logout"
-                    className="text-decoration-none text-dark fw-bold tag me-2"
+                    to="/login"
+                    className="text-decoration-none text-dark fw-bold tag me-2 getbutton"
                   >
-                    {t3}
+                    {" "}
+                    <button type="reset" className="btn btn-primary">
+                      {" "}
+                      {t3} Log Out
+                    </button>
                   </Link>
                 </Nav>
               </div>
