@@ -43,7 +43,7 @@ const Mystories = () => {
   };
   return (
     <div className="container">
-      <Header />
+      <Header t3={"Log Out"}/>
       <div className="mx-4 my-4">
         <div className="d-flex wri">
           <h1>My stories</h1>

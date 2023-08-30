@@ -39,7 +39,7 @@ if (data.success) {
 
   return (
     <div className="container">
-      <Header />
+      <Header t3={ "Log Out"} />
       <div className="cre my-3 mx-4">
         <h1>Create Story</h1>
         <form encType="multipart/form-data" onSubmit={handleCreate}>

@@ -41,7 +41,7 @@ const Singlestories = () => {
   }, [storyId]);
   return (
     <div className="container">
-      <Header />
+      <Header t3={"Log Out"} />
       <div className="my-4 mx-4 singlest ">
         <p className={`${
                       tag == "lifestyle"

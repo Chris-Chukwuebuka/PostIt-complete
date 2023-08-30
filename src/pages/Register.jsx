@@ -4,7 +4,7 @@ import axios from "axios";
 import { useGlobalContext } from "../context";
 import {Link,  useNavigate } from "react-router-dom";
 import { RxCross1 } from "react-icons/Rx";
-
+import Loading from "../components/Loading";
 import { toast } from "react-hot-toast";
 
 const Register = () => {
@@ -14,9 +14,12 @@ const Register = () => {
   const [username, setUserName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const handleRegister = async (e) => {
     e.preventDefault();
+        setLoading(true);
+
     console.log(email, password, username);
     const { data } = await  axios.post(` ${baseURL}/register`, {
       email, username, password,
@@ -36,7 +39,7 @@ const Register = () => {
   
   
   return (
-    <div  className="container">
+    <div className="container">
       <form onSubmit={handleRegister}>
         <section className="Log-me-abeg d-flex ">
           <div className="login-input text-center pt-2 mt-5">
@@ -78,7 +81,7 @@ const Register = () => {
               />
               <br />
               <input
-                type="text"
+                type="password"
                 id="password"
                 value={password}
                 required
@@ -88,7 +91,7 @@ const Register = () => {
               />
             </div>
             <button type="submit" className="mt-3">
-              Continue
+              {loading ? <Loading /> : "Continue"}
             </button>
             <div className="d-flex justify-content-center mt-3">
               <p className="fs-5">Already have an account?!</p>

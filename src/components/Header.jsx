@@ -55,10 +55,7 @@ const Header = ({ t1, t2, t3 }) => {
                     className="text-decoration-none text-dark fw-bold tag me-2 getbutton"
                   >
                     {" "}
-                    <button type="reset" className="btn btn-primary">
-                      {" "}
-                      {t3} Log Out
-                    </button>
+                      {t3} 
                   </Link>
                 </Nav>
               </div>
