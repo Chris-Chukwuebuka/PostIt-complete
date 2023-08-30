@@ -1,0 +1,79 @@
+.wel h1{
+ color: #292929;
+  font-family: var(--Harmattan);
+  line-height:40px ;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+  .wel p {
+   color: #000;
+   font-family: var(--opensans);
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+  }
+
+.btmy{
+ width: 120px;
+  height: 40px;
+ border-radius: 5px;
+  background-color: #0086B0;
+  border: none;
+   color: #F0F8FF;
+    font-family: var(--Harmattan);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btgo{
+  width: 120px;
+   height: 40px;
+   background-color: white;
+   border-radius: 5px;
+   border: 1px solid #0086B0;
+   color: #0086B0;
+    font-family: var(--Harmattan);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.peo {
+ width: 100%;
+}
+
+.peo img {
+ width: 100%;
+}
+
+
+@media (min-width: 1000px) {
+ .user{
+  margin-left: 50px;
+ }
+ .wel h1{
+  color: #292929;
+   font-family: var(--Harmattan);
+   font-size: 75px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 79px;
+   margin-top: 50px;
+ }
+ .wel p{
+  color: #000;
+   font-family: var(--opensans);
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+ }
+ .peo {
+   width: 80%;
+  }
+ 
+  .peo img {
+   width: 80%;
+  }
+}

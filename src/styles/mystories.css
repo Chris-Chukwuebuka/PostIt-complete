@@ -1,0 +1,130 @@
+.wri button{
+border-radius: 7.834px;
+ background: #292929;
+ width: 197.417px;
+  height: 54.838px;
+  border: none;
+}
+
+.wri .wrr{
+  color: #F0F8FF;
+   font-family: var(--harmattan);
+   font-size: 31.336px;
+   font-style: normal;
+   font-weight: 700;
+}
+
+.wri {
+ display: flex;
+ justify-content: space-between;
+}
+
+.wri h1{
+ color: #292929;
+  font-family: var(--harmattan);
+  font-size: 62.672px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.adp .al{
+color: #292929;
+ font-family: var(--harmattan);
+ font-size: 37.603px;
+ font-style: normal;
+ font-weight: 400;
+}
+
+.adp .df{
+ color: #757575;
+  font-family: var(--harmattan);
+  font-size: 37.603px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.adp .pu{
+ color: #757575;
+  font-family: var(--harmattan);
+  font-size: 37.603px;
+  font-style: normal;
+}
+.tded .titt{
+color: #292929;
+ font-family: Open Sans;
+ font-size: 28.202px;
+ font-style: normal;
+ font-weight: 600;
+}
+.tded .desc{
+ color: #7B7B7B;
+  font-family: Open Sans;
+  font-size: 21.935px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.edde button{
+width: 164.514px;
+ height: 51.704px;
+ border: none;
+ border-radius: 7.834px;
+  background: #0086B0;
+  color: #F0F8FF;
+   font-family: Harmattan;
+   font-size: 28.202px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.edde .del{
+ background: #FDFEFF;
+ color: #0086B0;
+  font-family: Harmattan;
+  font-size: 28.202px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 7.834px;
+   border: 1.567px solid #0086B0;
+}
+
+@media (max-width: 768px) {
+ .wri h1{
+  font-size: 40px;
+  line-height: 30px;
+ }
+ .wri .wrr{
+  font-size: 20px;
+ }
+ .wri button{
+width: 150px;
+height: 40px;
+ }
+ .adp .al{
+  font-size: 30px;
+ }
+ .adp .df{
+  font-size: 30px;
+ }
+ .adp .pu{
+  font-size: 30px;
+ }
+ .tded .titt{
+  font-size: 20px;
+ }
+ .edde button{
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+ }
+    .edde .del {
+      width: 130px;
+      height: 40px;
+      font-size: 20px;
+    }
+    .tded .desc{
+      font-size: 18px;
+    }
+}

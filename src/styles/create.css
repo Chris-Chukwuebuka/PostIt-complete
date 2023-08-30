@@ -1,0 +1,91 @@
+.cre h1{
+ color: #292929;
+  font-family: var(--harmattan);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.title input{
+  width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-top: 1px solid blue;
+      border-bottom: 1px solid green;
+      border-left: 1px solid gray;
+      border-right: 1px solid gray;
+}
+.tag select{
+  width: 100%;
+  height: 40px;
+  padding-left: 10px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid green;
+}
+.tag label{
+color: #292929;
+  font-family: var(--opensans);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 10px auto;
+}
+.image label{
+color: #292929;
+  font-family: var(--opensans);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 10px auto;
+}
+.image input {
+  width: 100%;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 35px;
+  padding-left: 10px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid green;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.write{
+  margin: 20px auto;
+}
+
+.write textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid green;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.cre button{
+  width: 200px;
+  border-radius: 5px;
+    background-color: #0086B0;
+    border: none;
+    color: #F0F8FF;
+      font-family: var(--harmattan);
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      text-align: center;
+      padding: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .cre button{
+    width: 150px;
+    font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      text-align: center;
+      padding: 5px;
+  }
+}

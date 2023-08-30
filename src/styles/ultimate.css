@@ -1,0 +1,177 @@
+.Log-me-abeg{
+  background-image: url('../assets/Section1.png');
+  width: 100%;
+  height: 780px;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: contain;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+}
+.login-input{
+  width: 700px;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 15px 50px;
+}
+.login-input b{
+  font-family: var(--Harmattan);
+font-size: 35px;
+font-weight: 700;
+line-height: 60px;
+height: 50px;
+width: 184px
+}
+.liner1 input::placeholder{
+  font-family: var(--Harmattan);
+font-size: 18px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+}
+.liner1 input{
+  border: none;
+  padding-left: 30px;
+  border-bottom: 1px solid #727272;
+  height: 60px;
+width: 415px
+
+}
+.liner1 input:hover{
+  cursor: pointer;
+  border-color: var(--blue);
+  outline-color: var(--blue);
+  outline-style: double;
+}
+.login-input button{
+  border: none;
+  font-size: 25px;
+  font-family: var(--Harmattan);
+  color: #fff;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: center;
+  border-radius: 8px;
+  background-color: var(--blue);
+  height: 48px;
+  width: 415px
+}
+.login-input p, a{
+  font-family: Harmattan;
+font-size: 22px;
+font-weight: 700;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: center;
+
+font-family: var(--Harmattan) ;
+font-size: 22px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+}
+@media (max-width:1024px) {
+  .Log-me-abeg{
+    overflow: hidden;
+  }
+  .login-input{
+    width: 600px;
+  }
+}
+@media (max-width:500px) {
+  .login-input{
+    width: 350px;
+  }
+  .login-input input{
+    width: 250px;
+  }
+  .login-input button{
+    width: 200px;
+  }
+}
+@media (max-width:400px) {
+  .login-input{
+    width: 300px;
+  }
+}
+.Tags{
+  width: 90px;
+  color: #fff;
+  border-radius: 8px;
+position: sticky;
+padding: auto;
+  font-family: var(--Harmattan);
+font-size: 15px;
+font-weight: 600;
+line-height: 35px;
+text-align: center;
+  margin-right: 10%;
+  margin-top:-20%
+  
+}
+.pics1 img{
+  border-radius: 15px;
+  
+}
+.Title{
+  font-family:  var(--opensans);
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+margin-top: 20px;
+text-align: left;
+margin-left: 20px;
+  height: 51px
+}
+.Next   p{
+margin-top: -8px;
+font-family: var(--opensans);
+font-size: 12px;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0.02em;
+text-align: left;
+font-style: italic;
+
+}
+.Next{
+  margin-top: -15px;
+
+}
+.Random input::placeholder{
+  font-family: var(--Harmattan);
+font-size: 25px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #727272;
+}
+.Tiger select ,option{
+  color: #727272;
+  font-family: Harmattan;
+font-size: 20px;
+font-weight: 700;
+line-height: 51px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.Press button{
+  background: #0086B0;
+border: none;
+font-family: var(--Harmattan);
+font-size: 25px;
+font-weight: 700;
+line-height: 51px;
+color: #fff;
+letter-spacing: 0.02em;
+  border-radius:5px ;
+  height: 50px;
+  width: 335px
+
+}
