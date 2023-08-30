@@ -1,0 +1,8 @@
+.getbutton button{
+    background-color: var(--blue);
+    font-family: var(--Harmattan);
+    width: 110px;
+    height: 39px;
+    color: #fff;
+    border: none;
+}
