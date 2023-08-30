@@ -8,7 +8,7 @@ import pic3 from "../assets/REC3.png";
 import Footer from "../components/Footer";
 const Home = () => {
   return (
-    <div>
+    <div className="container">
       <Header t1={"Sign In"} t2={"Get started"} />
       <div>
         <div className="curiousbg">
